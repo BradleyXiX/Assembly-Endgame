@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hanken Grotesk", Arial, sans-serif;
+  background-color: #262626;
+  color: #D9D9D9;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+header>h1 {
+  font-size: 1.5rem;
+}
+
+header>p {
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.status-section {
+  background-color: #10A95B;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 35px 22px;
+
+}
+
+.status-section>h2,
+p {
+  margin: auto;
+  font-weight: 500;
+
+}
+
+.language-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  max-width: 350px;
+  margin: auto;
+}
+
+span.chip {
+  border-radius: 4px;
+  padding: 4px;
+}
+
+section.word {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin: 35px 0px;
+}
+
+section.word>span {
+  height: 40px;
+  width: 40px;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  border-bottom: 1px solid #F9F4DA;
+
+}
+
+section.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  margin: 35px 0px;
+  max-width: 460px;
+}
+
+section.keyboard>button {
+  height: 40px;
+  width: 40px;
+  background: #FCBA29;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Hanken Grotesk", Arial, sans-serif;
+}
+
+button.new-game {
+  background-color: #11B5E5;
+  border: 1px solid #D7D7D7;
+  border-radius: 4px;
+  width: 225px;
+  height: 40px;
+  padding: 6px 12px;
+  display: block;
+  margin-inline: auto;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Hanken Grotesk", Arial, sans-serif;
+}
