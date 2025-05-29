@@ -62,7 +62,7 @@ export default function App() {
       isGameLost && !guess.includes(letter) && "missed-letter"
     )
     return (
-      <span key={index}>{ shouldRevealLetter ? letter.toUpperCase() : ""}</span>
+      <span className={letterClassName} key={index}>{ shouldRevealLetter ? letter.toUpperCase() : ""}</span>
     )
   })
 
